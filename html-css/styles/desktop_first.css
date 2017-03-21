@@ -1,24 +1,83 @@
-#main_wrapper{
+/*#main_wrapper{
 	position: fixed;
+	background: #D3D3D3;
 	height: 100%;
+	width: 100%;
 	margin-left: 0 auto;
 	margin-right: 0 auto;
 }
 
+*/
+
 #content_wrapper{
-	overflow-y: scroll;
+
 	height: 90%;
+
+}
+
+#content_wrapper, footer{
+
+	width: 1050px;
+}
+
+
+.contenido, .encabezado{
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.encabezado {
+	height: 50px;	
+}
+.encabezado nav{
+	margin-top: 3%;
+}
+
+/* Estilo de los navegadores del footer y el encabezado*/
+.menu{
+	float: right;
+}
+
+footer{
+	height: 10%;
+	padding-top: 20px;
+}
+
+.footer_text{
+	float: bottom;
+	padding-top: 20px; 
+	font-size: 12px;
+	text-align: center;
+}
+
+/*
+footer nav{
+	width: 100%;
+}*/
+
+.main_image {
+	text-align: center;
+}
+
+.main_image img{
+	width: 990px;
+	height: 340px;
 }
 
 .logo{
 	width: 60%;
 	float: left;
 }
-.menu{
-	float: right;
-}
 
-nav li{
-	display: inline;
-	padding: 10px;
+.main_section{
+	width: 400px;
+	float: left;
+}
+.sub_section{
+	float: left;
+	width: 285px;
+	margin-left: 10px;
+
 }
