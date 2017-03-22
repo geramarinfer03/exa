@@ -1,1 +1,56 @@
-print.css
+
+@media print {
+
+    #content_wrapper, #main_wrapper{
+        overflow: visible  !important;
+     }   
+
+    #content_wrapper{
+        height: 95%;
+    }
+
+    .contenido, .encabezado, .logo{
+        margin: 0px;
+        padding: 0pc;
+    }
+    img, nav{
+        display: none;
+    }
+    
+    
+    footer{
+        height: 0.5cm !important;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+  
+        
+    div[title~="caja"] {
+        background: white;
+        border: 0px;
+        padding: 0px;
+    }
+
+    .logo h1{
+        font-size: 52px;
+        text-align: center;
+        margin: 0.1cm;
+        margin-left: auto;
+    }
+
+    .main_section{
+        width: 75%;
+        page-break-after: always; 
+    }
+    .sub_section{
+        width: 75%;
+        margin: 0px;
+    }
+    h2, h3{
+        padding: 0px;
+        margin: 10px;
+        margin-left: 0px;
+    }
+
+ }
