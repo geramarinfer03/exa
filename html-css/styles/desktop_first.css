@@ -1,10 +1,10 @@
 /*------------------------------------ D E F A U L T -----------------------*/
-#content_wrapper{
+/*#content_wrapper{
 
 	height: 90%;
 
 }
-
+*/
 #content_wrapper, footer{
 
 	width: 1050px;
@@ -39,16 +39,21 @@
 	float: left;
 }
 
+nav li{
+	display: inline;
+	font-size: 14px;
+	padding: 4px;
+	border-right: 2px solid gray;
+	padding-right: 14px;
+}
 
 /* Estilo de los navegadores del footer y el encabezado*/
 .menu{
 	float: right;
 }
+
+
 /*----------------------------------------------------*/
-footer{
-	height: 10%;
-	padding-top: 20px;
-}
 
 .footer_text{
 	float: bottom;
@@ -76,3 +81,134 @@ footer{
 /*----------------------------------------*/
 
 /*-------------------------------------------------------------------------*/
+@media  screen and (max-width : 1000px) {
+	
+	#content_wrapper, footer{
+
+		width: 800px;
+	}
+	.contenido, .encabezado{
+		width: 740px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.encabezado {
+		height: 50px;	
+	}
+	.encabezado nav{
+		margin-top: 3%;
+	}
+
+	.main_image {
+		text-align: center;
+	}
+
+	.main_image img{
+		width: 740px;
+		height: 280px;
+	}
+
+	.logo{
+		width: 50%;
+		float: left;
+	}
+	.footer_text{
+		float: bottom;
+		font-size: 12px;
+		text-align: center;
+	}
+	footer .menu{
+		display: none;
+	}
+
+	/*---Contenido (Articles y Sections) -----*/
+	.main_section{
+		width: 740px;
+		float: left;
+	}
+	.sub_section , .sub_section img{
+		width: 345px;
+	} 
+	.sub_section img{
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	.sub_section{
+		float: left;
+		margin-right: 15px;
+	}
+
+
+}
+
+@media  screen and (max-width : 745px) {
+	#content_wrapper, footer{
+
+		width: 100%;
+	}
+	.contenido, .encabezado{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.encabezado {
+		height: 40px;	
+	}
+	.encabezado nav{
+		margin-top: 3%;
+	}
+
+	.main_image {
+		text-align: center;
+	}
+
+	.main_image img{
+		width: 95%;
+		height: 10%;
+	}
+
+	.logo{
+		width: 95%;
+		text-align: center;
+	}
+	.logo h1{
+		margin: 5px;
+	}
+	.footer_text{
+		float: bottom;
+		font-size: 16px;
+		padding-top: 0 !important;
+		text-align: center;
+	}
+	footer .menu{
+		display: none;
+	}
+		/*---Contenido (Articles y Sections) max-width: 745px; -----*/
+	.main_section{
+		width: 95%;
+		float: left;
+	}
+	.sub_section , .sub_section img{
+		width: 95%;
+	}
+	.menu{
+		float:left;
+		width: 100%;
+	} 
+
+	nav li{
+		display: block;
+		font-size: 14px;
+		padding: 4px;
+		border: none;
+		text-align: center;
+		background:  #D3D3D3;
+		margin: 2px;	
+	}
+	.activo{
+		background: #A3A3A3;
+	}
+
+}
