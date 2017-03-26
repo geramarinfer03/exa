@@ -85,19 +85,6 @@ nav li{
 	}
 	.contenido, header{
 		width: 740px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	header {
-		height: 50px;	
-	}
-	header nav{
-		margin-top: 3%;
-	}
-
-	.main_image {
-		text-align: center;
 	}
 
 	.main_image img{
@@ -107,12 +94,9 @@ nav li{
 
 	.logo{
 		width: 50%;
-		float: left;
 	}
 	.footer_text{
-		float: bottom;
-		font-size: 12px;
-		text-align: center;
+		padding-top: 0px;
 	}
 	footer .menu{
 		display: none;
@@ -121,17 +105,12 @@ nav li{
 	/*---Contenido (Articles y Sections) -----*/
 	.main_section{
 		width: 740px;
-		float: left;
 	}
 	.sub_section , .sub_section img{
 		width: 345px;
 	} 
-	.sub_section img{
-		margin-top: 10px;
-		margin-bottom: 5px;
-	}
+
 	.sub_section{
-		float: left;
 		margin-right: 15px;
 	}
 
@@ -145,19 +124,10 @@ nav li{
 	}
 	.contenido, header{
 		width: 95%;
-		margin-left: auto;
-		margin-right: auto;
 	}
 
 	header {
 		height: 40px;	
-	}
-	header nav{
-		margin-top: 3%;
-	}
-
-	.main_image {
-		text-align: center;
 	}
 
 	.main_image img{
@@ -173,21 +143,23 @@ nav li{
 		margin: 5px;
 	}
 	.footer_text{
-		float: bottom;
-		font-size: 16px;
-		padding-top: 0 !important;
+		padding-top: 0px;
 		text-align: center;
 	}
 	footer .menu{
 		display: none;
 	}
 		/*---Contenido (Articles y Sections) max-width: 745px; -----*/
+		
 	.main_section{
 		width: 95%;
 		float: left;
 	}
-	.sub_section , .sub_section img{
+	.sub_section{
 		width: 95%;
+	}
+	.sub_section img{
+		width: 100%;
 	}
 	.menu{
 		float:left;

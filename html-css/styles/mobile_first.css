@@ -42,11 +42,11 @@
 	}
 		/*---Contenido (Articles y Sections)  -----*/
 	.main_section{
-		width: 95%;
+		width: 100%;
 		float: left;
 	}
 	.sub_section{
-		width: 95
+		width: 100%
 	}
 	.sub_section img{
 		width: 100%;
