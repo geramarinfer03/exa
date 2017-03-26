@@ -1,27 +1,23 @@
 /*------------------------------------ D E F A U L T -----------------------*/
-/*#content_wrapper{
 
-	height: 90%;
 
-}
-*/
 #content_wrapper, footer{
 
 	width: 1050px;
 }
 
 
-.contenido, .encabezado{
+.contenido, header{
 	width: 990px;
 	margin-left: auto;
 	margin-right: auto;
 
 }
 
-.encabezado {
+header {
 	height: 50px;	
 }
-.encabezado nav{
+header nav{
 	margin-top: 3%;
 }
 
@@ -87,16 +83,16 @@ nav li{
 
 		width: 800px;
 	}
-	.contenido, .encabezado{
+	.contenido, header{
 		width: 740px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	.encabezado {
+	header {
 		height: 50px;	
 	}
-	.encabezado nav{
+	header nav{
 		margin-top: 3%;
 	}
 
@@ -147,16 +143,16 @@ nav li{
 
 		width: 100%;
 	}
-	.contenido, .encabezado{
+	.contenido, header{
 		width: 95%;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	.encabezado {
+	header {
 		height: 40px;	
 	}
-	.encabezado nav{
+	header nav{
 		margin-top: 3%;
 	}
 

@@ -48,7 +48,9 @@ h5, .red_text{
 	color: red;
 	font-weight: bold;
 }
-
+.underline_text{
+	text-decoration: line-through;
+}
 /*----------------------------------------------*/
 
 /* Tags HTML*/
