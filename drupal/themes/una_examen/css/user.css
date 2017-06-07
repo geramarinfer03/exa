@@ -1,6 +1,6 @@
 
 body{
-	background: #D3D3D3;
+	background: #002e7a;
 }
 #content_wrapper{
 
@@ -52,17 +52,24 @@ footer{
 	height: 40px;
 }*/
 
-h1{
+h1, h2{
 	width: 100%;
+	font-family: 'Indie Flower';
+	font-style: normal;
+	font-weight: normal;
+	font-weight: bold;
 }
 
-
+aside{
+	float: left;
+}
 footer{
 	border-top: 2px solid #545454;
 	background: white;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 10px;
 }
 
 /*----------------------------------------------*/
@@ -73,7 +80,8 @@ p{
 	line-height: 20px;
 }
 
-h1,h2,h3,h4,h5{
+
+h3,h4,h5{
 	font-family: "Courier 10 Pitch", sans-serif;
 }
 
@@ -121,14 +129,14 @@ div[title~="caja"] a:last-child{
 	max-width: 100%;
  	/*padding-top: 20px;
 	margin-top: 20px;*/
-	background: #C5D9E8;
+	/*background: #C5D9E8;
 	height: 70px;
 	font-size: large;
-	font-weight: bold;
+	font-weight: bold;*/
 }
 
-.navbar {
-
+header {
+	padding-top: 10px;
 }
 
 .container {
@@ -138,3 +146,60 @@ div[title~="caja"] a:last-child{
 .menu{
 	color: white;
 }
+
+.region-slider{
+
+	margin-bottom: 20px;
+}
+.carousel-caption p {
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+.carousel-caption a, .name {
+	font-family: 'Indie Flower';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	font-weight: bold;
+}
+.carousel-caption a {
+	font-size: 30px;
+	color: white;
+
+}
+
+.navbar-default .navbar-brand {
+    color: #00225b;
+}
+
+footer .name{
+	font-size: 14px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #00225b;
+    font-family: 'Lobster';
+	font-style: normal;
+	font-size: 18px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: white;
+	font-size: 24px;
+}
+
+.well {
+	background-color:  #C5D9E8;
+}
+
+.imgText{
+	padding: 5px;
+	padding-right: 20px;
+}
+.firstAside{
+	height: 100%;
+}
+/*font-family: 'Lobster';
+font-style: normal;
+font-weight: normal;*/
