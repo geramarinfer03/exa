@@ -124,6 +124,14 @@
               {% endblock %}
             {% endif %}
 
+              {# Sidebar First #}
+              {% if page.sidebar_first %}
+                {% block sidebar_first %}
+                  <aside class="col-sm-3 firstAside" role="complementary">
+                    {{ page.sidebar_first }}
+                  </aside>
+                {% endblock %}
+              {% endif %}
 
 
             {# Content #}
@@ -165,21 +173,14 @@
                 {% endblock %}
               {% endif %}
 
-              {# Sidebar First #}
-              {% if page.sidebar_first %}
-                {% block sidebar_first %}
-                  <aside class="col-sm-3 firstAside" role="complementary">
-                    {{ page.sidebar_first }}
-                  </aside>
-                {% endblock %}
-              {% endif %}
+             
 
               {# Content #}
               {% block content %}
                 <a id="main-content"></a>
                 {{ page.content }}
               {% endblock %}
-            </section>
+             </section>
 
             {% if is_front %}
             

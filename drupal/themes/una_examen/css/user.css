@@ -4,55 +4,19 @@ body{
 }
 #content_wrapper{
 
-	
-	/*height: calc(100% - 80px);
-	width: 98%;*/
-
 }
 
 #main_wrapper{
-	/*position: fixed;*/
 	background: #D3D3D3;
-	/*height: 100%;
-	width: 100%;*/
 	margin-left: auto;
 	margin-right: auto;
 }
 #content_wrapper{
 	background: white;
-	/*overflow-y: auto;
-	margin-left: auto;
-	*/margin-right: auto;
-}
-/*.footer{
-	margin-top: 0px;
-	width: 98%;
-	padding-top: 0px;
-}
-.footer span{
-	float: left;
-	padding: 10px;
-	padding-left: 8%;
-}
-footer{
-	height: 100px;
-	width: 98%;
-	padding-top: 20px;
-}
-*/
-/*
-
-.menu{
-	width: 60%;
-	float: right;
+	margin-right: auto;
 }
 
-.navbar-header{
-	background: whitesmoke;
-	height: 40px;
-}*/
-
-h1, h2{
+h1, h2, h3{
 	width: 100%;
 	font-family: 'Indie Flower';
 	font-style: normal;
@@ -81,7 +45,7 @@ p{
 }
 
 
-h3,h4,h5{
+h4,h5{
 	font-family: "Courier 10 Pitch", sans-serif;
 }
 
@@ -95,29 +59,6 @@ h5, .red_text{
 	color: red;
 	font-weight: bold;
 }
-
-/*
-.underline_text{
-	text-decoration: line-through;
-}
-*/
-/*----------------------------------------------*/
-
-/*
-.caja_links {
-    background: #C6A664;
-    border: solid black;
-    padding: 5px;
-}
-
-div[title~="caja"] a:last-child{
-	text-decoration: none;
-}
-
-.sub_section img{
-		width: 100%;
-}*/
-
 
 
 
@@ -200,6 +141,33 @@ footer .name{
 .firstAside{
 	height: 100%;
 }
-/*font-family: 'Lobster';
-font-style: normal;
-font-weight: normal;*/
+
+
+.doctors-rows img { 
+	float: left; 
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+
+.fieldDoctor{
+	font-size: 18px;
+}
+
+.field--name-field-foto {
+	/*width: 24%;*/
+	padding-right: 20px;
+	padding-bottom: 20px;
+	float: left;
+}
+.field {
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+.field--name-field-direccion2 {
+	width: 100%;
+	display: block;
+	padding-top: 150px;
+}
+.doctors-rows{
+	height: 220px;
+}
