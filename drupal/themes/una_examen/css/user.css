@@ -29,7 +29,7 @@ aside{
 }
 footer{
 	border-top: 2px solid #545454;
-	background: white;
+	background: #eaf2ff;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -170,4 +170,10 @@ footer .name{
 }
 .doctors-rows{
 	height: 220px;
+}
+.list-group-item{
+	margin-bottom: 10px;.
+	float: left;
+	border: none;
+	margin-left: 10px;
 }
